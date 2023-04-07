@@ -30,7 +30,7 @@ header > h1 {
     padding-top: 50px;
 /*  text-transform: uppercase;  Letras maiusculas padrão */
     font-variant: small-caps; /* Letras maiusculas estilizadas */
-    fonta-family:var(--fonte2);
+    font-family:var(--fonte2);
     font-size: 10vw; /* largura da tela */
 }
 
@@ -75,6 +75,12 @@ section.imagem  > p {
 
 }
 
+section#img01 {
+    background-image: url('../pacote-d012/imagens/background001.jpg');
+}
+section#img02 {
+    background-image: url('../pacote-d012/imagens/background002.jpg');
+}
 footer {
     background-color: black;
     color: white;
